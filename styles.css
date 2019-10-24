@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 #container{
     width: 850px;
     
@@ -54,5 +58,23 @@ h2{
     position: relative;
     left: 500px;
     top: 50px;
+
+}
+#containertwo{
+    width: 850px;
+    height: 10px;
+
+}
+#blockthree{
+    float: left;
+    width: 328px;
+     height: 180px;
+    border: solid 10px; color: blue;
+}
+#blockfour{
+    float: right;
+    width: 512px;
+     height: 160px;
+    border: solid 10px; color: blue;
 
 }
